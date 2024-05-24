@@ -17,19 +17,22 @@ const Footer: React.FC = () => {
             <h4 className="text-zinc-500 font-Krona-One">Social</h4>
             <div className="flex flex-row gap-x-6 justify-start items-center">
                 <Link
-                to=""
+                to="https://www.facebook.com/jasperpinoliadayawan/"
+                target="_blank"
                 className="flex flex-row gap-x-2 justify-center items-center text-white"
                 >
                 <FaFacebook fontSize={20} /> Facebook
                 </Link>
                 <Link
-                to=""
+                to="https://www.linkedin.com/in/jasper-ayawan-7abb47232/"
+                target="_blank"
                 className="flex flex-row gap-x-2 justify-center items-center text-white"
                 >
                 <FaLinkedin fontSize={20} /> LinkedIn
                 </Link>
                 <Link
-                to=""
+                to="https://www.tiktok.com/@jasper.dev?_t=8mbtmZ2ibJ2&_r=1"
+                target="_blank"
                 className="flex flex-row gap-x-2 justify-center items-center text-white"
                 >
                 <AiFillTikTok fontSize={20} /> Tiktok

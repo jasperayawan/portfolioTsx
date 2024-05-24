@@ -36,13 +36,16 @@ const Aboutme: React.FC = () => {
             Write a message <IoSendOutline fontSize={20}/>
           </Link>
           <div className="flex flex-row gap-6 justify-center items-start md:items-center">
-            <Link to='' className="flex flex-row gap-x-2 justify-center items-center">
+            <Link to="https://www.facebook.com/jasperpinoliadayawan/"
+                target="_blank" className="flex flex-row gap-x-2 justify-center items-center">
                 <FaFacebook fontSize={20}/> Facebook
             </Link>
-            <Link to='' className="flex flex-row gap-x-2 justify-center items-center">
+            <Link to="https://www.linkedin.com/in/jasper-ayawan-7abb47232/"
+                target="_blank" className="flex flex-row gap-x-2 justify-center items-center">
                 <FaLinkedin fontSize={20}/> LinkedIn
             </Link>
-            <Link to='' className="flex flex-row gap-x-2 justify-center items-center">
+            <Link to="https://www.tiktok.com/@jasper.dev?_t=8mbtmZ2ibJ2&_r=1"
+                target="_blank" className="flex flex-row gap-x-2 justify-center items-center">
                 <AiFillTikTok fontSize={20}/> Tiktok
             </Link>
           </div>
