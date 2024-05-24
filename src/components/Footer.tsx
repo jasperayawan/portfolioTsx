@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
         <div className="flex flex-col">
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-Krona-One text-[#CED2D4]">
             Let's talk about
-            <br className="md:hidden"/> your project
+            <br className="hidden md:block"/> your project
           </h2>
           <div className="flex flex-col gap-y-3 mt-10">
             <h4 className="text-zinc-500 font-Krona-One">Social</h4>
