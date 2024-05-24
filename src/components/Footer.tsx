@@ -6,12 +6,12 @@ import { AiFillTikTok } from "react-icons/ai";
 
 const Footer: React.FC = () => {
   return (
-    <div className="min-h-screen flex justify-end items-end px-[40px] pb-[40px]">
-      <div className="w-full rounded-2xl h-[70vh] bg-[#1c1f21] px-16 pt-10">
+    <div className="min-h-screen flex justify-end items-end  md:px-[40px] px-[4px] md:pb-[40px] pb-[4px]">
+      <div className="w-full rounded-2xl h-[70vh] bg-[#1c1f21] px-8 md:px-16 pt-10">
         <div className="flex flex-col">
-          <h2 className="text-6xl font-Krona-One text-[#CED2D4]">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-Krona-One text-[#CED2D4]">
             Let's talk about
-            <br /> your project
+            <br className="md:hidden"/> your project
           </h2>
           <div className="flex flex-col gap-y-3 mt-10">
             <h4 className="text-zinc-500 font-Krona-One">Social</h4>
